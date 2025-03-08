@@ -15,6 +15,10 @@ run/main_scene="uid://c1ss4do6bj76j"
 config/features=PackedStringArray("4.4", "C#", "Mobile")
 config/icon="res://icon.svg"
 
+[debug]
+
+settings/stdout/print_fps=true
+
 [dotnet]
 
 project/assembly_name="gacha"
