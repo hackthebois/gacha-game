@@ -2,7 +2,7 @@
 
 [ext_resource type="ArrayMesh" uid="uid://tcu3ws7lqnfi" path="res://assets/pine_tree.res" id="1_5vw27"]
 [ext_resource type="ArrayMesh" uid="uid://tme013rslxfw" path="res://assets/ground.res" id="1_272bh"]
-[ext_resource type="Script" uid="uid://b7uqun7gaesgu" path="res://CameraMovement.cs" id="1_kek77"]
+[ext_resource type="Script" uid="uid://b7uqun7gaesgu" path="res://scripts/CameraMovement.cs" id="1_kek77"]
 [ext_resource type="ArrayMesh" uid="uid://5tdlxi30f6b0" path="res://assets/maple_tree.res" id="2_5vw27"]
 [ext_resource type="ArrayMesh" uid="uid://rhnqmxdbcoar" path="res://assets/fern.res" id="3_kek77"]
 [ext_resource type="ArrayMesh" uid="uid://c05hgs28fp3ga" path="res://assets/grass.res" id="4_4c57u"]
@@ -46,10 +46,6 @@ environment = SubResource("Environment_272bh")
 [node name="Ground" type="MeshInstance3D" parent="Environment"]
 transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, 0, 0, 0)
 mesh = ExtResource("1_272bh")
-skeleton = NodePath("../..")
-
-[node name="MapleTree" type="MeshInstance3D" parent="Environment"]
-mesh = ExtResource("2_5vw27")
 skeleton = NodePath("../..")
 
 [node name="Fern" type="MeshInstance3D" parent="Environment"]

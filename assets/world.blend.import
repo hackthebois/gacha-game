@@ -33,6 +33,24 @@ animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
 _subresources={
+"materials": {
+"Material": {
+"use_external/enabled": true,
+"use_external/path": "uid://ctqm4lb40m3pg"
+},
+"Material.001": {
+"use_external/enabled": true,
+"use_external/path": "uid://ctqm4lb40m3pg"
+},
+"Material.002": {
+"use_external/enabled": true,
+"use_external/path": "uid://ctqm4lb40m3pg"
+},
+"Material.003": {
+"use_external/enabled": true,
+"use_external/path": "uid://ctqm4lb40m3pg"
+}
+},
 "meshes": {
 "world_Cylinder": {
 "generate/lightmap_uv": 0,
